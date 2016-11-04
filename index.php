@@ -3,11 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>My Personal Page</title>
-    <link rel="stylesheet" href="lib/css/reflection.css"/>
     <?php require_once("lib/headUtils.php"); ?>
     <style>
       body{
-        background: url("lib/images/roses1.jpg")no-repeat center center;
+        background: url("lib/images/road.jpg")no-repeat center center;
       }
     </style>
   </head>
@@ -15,8 +14,14 @@
     <?php require_once ("lib/partials/navBar.php");?>
     <section>
       <h1>Straight Ahead</h1>
+      <div id="photo">
+        <div class="col-md-12">
+          <div class="row col-centered">
+              <img src="lib/images/reflect.png" alt=""/>
+        </div>
+      </div>
+    </div>
 
-      <?php require_once ("lib/partials/reflection.php");?>
       <div class="container">
         <p class="lead">
           "If you accept the expectations of others, especially
