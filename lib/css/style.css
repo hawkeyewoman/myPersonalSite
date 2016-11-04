@@ -1,0 +1,114 @@
+.carousel {
+  min-height: 620px;
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+  text-align: left;
+  right: 10%;
+  left: 10%;
+  font-size: 22px;
+}
+
+.carousel .item {
+  height: 620px;
+  background-color: #030100;
+}
+
+.carousel-inner>.item >img {
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 620px;
+}
+
+.col-md-5>img {
+  width: 100%;
+}
+.feature-list {
+  list-style: none;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h2 {
+  font-weight: normal;
+}
+
+section {
+  margin: 20px 0 30px 0;
+}
+
+ h1 {
+  color: #6F477F; font-family: 'Dancing Script', cursive; font-size: 165px;
+  line-height: 160px; font-weight: normal;
+  margin-bottom: 30px; margin-top: 20px;
+  text-align: center; text-shadow: 0 2px 2px #fff;
+}
+
+.lead {
+color: #F6EFFF;
+font-family: 'Courgette', cursive;
+position: fixed;
+top: 123%;
+align-items: center;
+}
+
+h2 { color: #6CE8E0;
+  font-family: 'Alex Brush', cursive;
+  font-size: 100px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+.poem {
+  font-family: 'Courgette', cursive;
+  color:
+}
+
+.poem1 {
+  font-family: 'Courgette', cursive;
+  color: #7981FF;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.poem3 {
+  font-family: 'Courgette', cursive;
+  color: #4B0563;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.poem4 {
+  font-family: 'Courgette', cursive;
+  color: #11C79D;
+}
+
+p {
+  color: pink;
+  margin-left: 75px;
+  margin-right: 75px;
+  text-align: center;
+}
+
+h3 {
+  color: pink;
+}
+
+.panel {
+  background-color: transparent;
+}
+
+.list-group-item {
+  background-color: transparent;
+  color: pink;
+  border: none;
+}
