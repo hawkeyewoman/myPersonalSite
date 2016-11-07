@@ -46,19 +46,19 @@ section {
  h1 {
   color: #6F477F; font-family: 'Dancing Script', cursive; font-size: 165px;
   line-height: 160px; font-weight: normal;
-  margin-bottom: 30px; margin-top: 20px;
+  margin-bottom: 70px; margin-top: 80px;
   text-align: center; text-shadow: 0 2px 2px #fff;
 }
 
 .lead {
 color: #F6EFFF;
 font-family: 'Courgette', cursive;
-position: fixed;
-top: 123%;
 align-items: center;
+font-size: 35px;
 }
 
-h2 { color: #6CE8E0;
+h2 {
+  color: #6CE8E0;
   font-family: 'Alex Brush', cursive;
   font-size: 100px;
   font-weight: normal;
@@ -111,9 +111,4 @@ h3 {
   background-color: transparent;
   color: pink;
   border: none;
-}
-
-.col-centered{
-    /*float: none;*/
-    margin: 0 auto;
 }
